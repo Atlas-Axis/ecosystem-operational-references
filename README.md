@@ -18,7 +18,9 @@ ecosystem-operational-references/
 │   └── technical-scope/
 │       ├── star-spell-technical-scope-example.md
 │       └── non-spell-technical-scope-example.md
-├── .claude/skills/          ← placeholder for future Claude skills
+├── .claude/skills/
+│   └── submit-technical-scope/  ← guided submission skill
+│   └── submit-technical-scope/  ← guided submission skill
 └── .github/workflows/       ← placeholder for future workflows
 ```
 
@@ -33,7 +35,13 @@ ecosystem-operational-references/
 **Where to submit:** The filled-in template must be submitted through both public and private channels:
 
 - **Public:** All sections except the security-sensitive sections defined above must be published as a Forum post on the Sky Forum.
-- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a dedicated private repository. Until that repository is established, the full template should be shared via HackMD to the Executive Process Liaison and any other relevant parties.
+- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted as a Pull Request in your Agent's private submissions repository. Atlas Axis must approve before the submission can be merged.
+
+**How to submit:**
+
+a) **Manually:** Pull the latest version of this repo, copy the template, fill it in, and submit the completed document as a PR in your Agent's private submissions repository. See the [Getting started](#getting-started) section below.
+
+b) **Using the Claude skill:** Run `/submit-technical-scope` in Claude Code from this repo. The skill copies the latest template, opens it for editing, runs a pre-submission review when you're done, and handles the PR submission.
 
 **For Agents:** For Technical Scopes associated with a Prime Spell, both the Forum post and the private submission must be completed according to the following deadlines:
 
