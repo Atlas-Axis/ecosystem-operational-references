@@ -48,6 +48,7 @@
     - Chain name:
     - Contract address (linked to the explorer):
     - Deployment transaction trace:
+    - Deployment checklist: [publicly accessible link to the completed deployment checklist]
     - Code verification
         - If deployed by EOA
             - Source code URL (at the audited commit hash):
