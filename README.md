@@ -46,7 +46,7 @@ ecosystem-operational-references/
 
 **When to use:** For every contract deployment within the Sky Ecosystem.
 
-**Where to submit:** The completed checklist must be attached to the deployment script Pull Request or, if no Pull Request exists, documented in a GitHub issue within the repository of the deployed code.
+**Where to submit:** Where the deployment is included in a Technical Scope Forum post, the completed checklist must be publicly accessible and linked from the Pre-deployed Contracts section of that post for each deployed contract. If the deployment has not yet occurred at the time the Technical Scope post is published, the checklist link may be marked as pending and updated once deployment is completed. For deployments that do not have an accompanying Technical Scope Forum post, the completed checklist must be retained by the deploying team and made accessible on request.
 
 ## Getting started
 
