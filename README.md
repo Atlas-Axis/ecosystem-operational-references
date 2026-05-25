@@ -18,6 +18,8 @@ ecosystem-operational-references/
 │   └── technical-scope/
 │       ├── star-spell-technical-scope-example.md
 │       └── non-spell-technical-scope-example.md
+├── guides/
+│   └── morpho-deployment-verification-guide.md
 ├── .claude/skills/          ← placeholder for future Claude skills
 └── .github/workflows/       ← placeholder for future workflows
 ```
@@ -47,6 +49,10 @@ ecosystem-operational-references/
 **When to use:** For every contract deployment within the Sky Ecosystem.
 
 **Where to submit:** Where the deployment is included in a Technical Scope Forum post, the completed checklist must be publicly accessible and linked from the Pre-deployed Contracts section of that post for each deployed contract. If the deployment has not yet occurred at the time the Technical Scope post is published, the checklist link may be marked as pending and updated once deployment is completed. For deployments that do not have an accompanying Technical Scope Forum post, the completed checklist must be retained by the deploying team and made accessible on request.
+
+### Guides (`guides/`)
+
+Reusable verification methodologies and best practices for specific deployment types. Guides document a repeatable verification flow and may include worked examples.
 
 ## Getting started
 
