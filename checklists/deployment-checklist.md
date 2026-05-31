@@ -7,10 +7,17 @@
 
 ### Script structure
 - [ ] Deployment logic is extracted into a Solidity library that accepts constructor arguments and deploys the contract. The deployment library does not contain initialization logic or hardcoded addresses.
-- [ ] Initialization logic is extracted into a Solidity library that accepts addresses as parameters and performs post-deployment configuration (granting roles, setting state). The initialization library is directly importable by a compliant Spell without modifications.
+- [ ] Initialization logic is extracted into a Solidity library that accepts addresses as parameters and performs post-deployment configuration (granting roles, setting state).
+- [ ] The initialization library is directly importable by a compliant Spell without modifications.
+- [ ] Deployment and initialization logic are combined into a single library unless there is reasonable justification for separation.
+- [ ] The execution context of the initialization library is the relevant Governance proxy (`MCD_PAUSE_PROXY` for Core-owned code, `{PRIME}_SUBPROXY` for Prime-owned code).
 - [ ] The deployment script calls the deployment and initialization libraries and accepts all addresses and configuration values as parameters. No addresses are hardcoded in the deployment script.
-- [ ] All deployment and initialization library functions are tested. Test coverage targets 100%. If a path cannot be tested, justification is documented.
+- [ ] All deployment and initialization library functions are tested.
+- [ ] Test coverage targets 100%. If a path cannot be tested, justification is documented.
 - [ ] The deployment script yields ownership of deployed contracts to the relevant Governance proxy (`MCD_PAUSE_PROXY` for Core-owned code, `{PRIME}_SUBPROXY` for Prime-owned code).
+- [ ] Top-level deployment scripts are included in the audit scope.
+- [ ] Auditors have at minimum verified constructor parameters.
+- [ ] Every initialization function has been audited.
 - [ ] Top-level initialization scripts used only for test environments (e.g., Tenderly Virtual Testnets) are excluded from audit scope, as they cannot be used in a production environment.
 
 ### Deployment preparation
