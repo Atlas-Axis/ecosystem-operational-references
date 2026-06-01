@@ -35,7 +35,7 @@ ecosystem-operational-references/
 **Where to submit:** The filled-in template must be submitted through both public and private channels:
 
 - **Public:** All sections except the security-sensitive sections defined above must be published as a Forum post on the Sky Forum.
-- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted internally through a dedicated private repository. Until that repository is established, the full template should be shared via HackMD to the Executive Process Liaison and any other relevant parties.
+- **Private:** The full template, including the security-sensitive sections (Technical Risk Self-Assessment, Emergency Actions, and Monitoring), must be submitted as a Pull Request to the Agent's private fork of [technical-scope-submissions-template](https://github.com/Atlas-Axis/technical-scope-submissions-template). See the submission instructions in that repository for setup and workflow details.
 
 **For Agents:** For Technical Scopes associated with a Prime Spell, both the Forum post and the private submission must be completed according to the following deadlines:
 
